@@ -1,4 +1,4 @@
-package domain;
+package domain.Tree;
 
 public class AVL implements Tree {
     private BTreeNode root;
@@ -331,30 +331,54 @@ public class AVL implements Tree {
         return result;
     }
 
-    //Gabriel Chaves
-    public String getSequence(){
-        return getSequence(root);
+    @Override
+    public String printNodesWithChildren() throws TreeException {
+        return null;
     }
 
-    private String getSequence(BTreeNode node) {
-        String sequence = "";
-
-        if (node != null && util.Utility.compare(node.data, root.data) == 0){
-            sequence = "Se insertó " + node.data + " como " + node.path;
-        }
-
-        if (node.left != null) {
-            sequence += "\nSe insertó " + node.left.data + " como " + node.left.path;
-            sequence += getSequence(node.left);
-        }
-
-        if (node.right != null) {
-            sequence += "\nSe insertó " + node.right.data + " como " + node.right.path;
-            sequence += getSequence(node.right);
-        }
-
-        return sequence;
+    @Override
+    public String printNodes1Child() throws TreeException {
+        return null;
     }
 
+    @Override
+    public String printNodes2Children() throws TreeException {
+        return null;
+    }
+
+    @Override
+    public String printLeaves() throws TreeException {
+        return null;
+    }
+
+    @Override
+    public Object grandFather(Object element) throws TreeException {
+        return null;
+    }
+
+    @Override
+    public Object father(Object element) throws TreeException {
+        return null;
+    }
+
+    @Override
+    public Object brother(Object element) throws TreeException {
+        return null;
+    }
+
+    @Override
+    public Object cousins(Object data) throws TreeException {
+        return null;
+    }
+
+    @Override
+    public Object subTree(Object data) throws TreeException {
+        return null;
+    }
+
+    @Override
+    public int totalLeaves() throws TreeException {
+        return 0;
+    }
 
 }

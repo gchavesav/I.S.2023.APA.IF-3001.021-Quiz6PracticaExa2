@@ -1,4 +1,4 @@
-package domain;
+package domain.Tree;
 
 public class BTree implements Tree {
     private BTreeNode root;
@@ -7,6 +7,7 @@ public class BTree implements Tree {
         this.root = null;
     }
 
+    @Override
     public BTreeNode getRoot() {
         return root;
     }
@@ -276,6 +277,56 @@ public class BTree implements Tree {
         result+="InOrder: "+inOrder(root)+"\n";
         result+="PostOrder: "+postOrder(root)+"\n";
         return result;
+    }
+
+    @Override
+    public String printNodesWithChildren() throws TreeException {
+        return null;
+    }
+
+    @Override
+    public String printNodes1Child() throws TreeException {
+        return null;
+    }
+
+    @Override
+    public String printNodes2Children() throws TreeException {
+        return null;
+    }
+
+    @Override
+    public String printLeaves() throws TreeException {
+        return null;
+    }
+
+    @Override
+    public Object grandFather(Object element) throws TreeException {
+        return null;
+    }
+
+    @Override
+    public Object father(Object element) throws TreeException {
+        return null;
+    }
+
+    @Override
+    public Object brother(Object element) throws TreeException {
+        return null;
+    }
+
+    @Override
+    public Object cousins(Object data) throws TreeException {
+        return null;
+    }
+
+    @Override
+    public Object subTree(Object data) throws TreeException {
+        return null;
+    }
+
+    @Override
+    public int totalLeaves() throws TreeException {
+        return 0;
     }
 
 }

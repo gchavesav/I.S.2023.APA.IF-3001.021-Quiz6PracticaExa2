@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package domain;
+package domain.Graph;
 
 import domain.list.ListException;
 import domain.queue.QueueException;
@@ -44,4 +44,15 @@ public interface Graph {
     //retorna el vertice segun id indicado
     public Vertex getVertexByIndex(int index) throws ListException;
     public int getNumNodes() throws ListException;
+
+    //additional methods
+    Object getVertexDegree(Object value) throws GraphException, ListException;
+
+    String getGraphDegree() throws GraphException, ListException;
+
+    int totalEdges() throws GraphException, ListException;
+
+    int totalEdges(Object value) throws GraphException, ListException;
+
+    String getEdges(Object value) throws GraphException, ListException;
 }

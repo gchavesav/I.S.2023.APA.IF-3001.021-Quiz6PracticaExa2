@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package domain;
+package domain.Graph;
 
 import domain.list.ListException;
 import domain.queue.LinkedQueue;
@@ -215,7 +215,7 @@ public class AdjacencyListGraph implements Graph {
     /***
      * RECORRIDO EN PROFUNDIDAD
      * @return 
-     * @throws domain.GraphException
+     * @throws GraphException
      * @throws domain.stack.StackException
      * @throws domain.list.ListException
      */
@@ -244,7 +244,7 @@ public class AdjacencyListGraph implements Graph {
     /***
      * RECORRIDO POR AMPLITUD
      * @return 
-     * @throws domain.GraphException
+     * @throws GraphException
      * @throws domain.queue.QueueException
      * @throws domain.list.ListException
      */
@@ -295,6 +295,31 @@ public class AdjacencyListGraph implements Graph {
             }//if
         }//for
         return null; //no existe el vertice
-    } 
+    }
+
+    @Override
+    public Object getVertexDegree(Object value) throws GraphException, ListException {
+        return null;
+    }
+
+    @Override
+    public String getGraphDegree() throws GraphException, ListException {
+        return null;
+    }
+
+    @Override
+    public int totalEdges() throws GraphException, ListException {
+        return 0;
+    }
+
+    @Override
+    public int totalEdges(Object value) throws GraphException, ListException {
+        return 0;
+    }
+
+    @Override
+    public String getEdges(Object value) throws GraphException, ListException {
+        return null;
+    }
 
 }

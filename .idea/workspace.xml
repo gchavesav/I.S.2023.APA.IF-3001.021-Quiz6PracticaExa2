@@ -5,17 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31750ee5-8323-412d-b503-5171c5c58f1e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Graph/AdjacencyListGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Graph/AdjacencyListGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Graph/AdjacencyMatrixGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Graph/AdjacencyMatrixGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Graph/DirectedSinglyLinkedListGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Graph/DirectedSinglyLinkedListGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Graph/EdgeWeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Graph/EdgeWeight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Graph/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Graph/GraphException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Graph/GraphException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Graph/SinglyLinkedListGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Graph/SinglyLinkedListGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Graph/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Graph/Vertex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Tree/AVL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Tree/AVL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Tree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Tree/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Tree/BTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Tree/BTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Tree/BTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Tree/BTreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Tree/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Tree/TreeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Tree/TreeException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Utility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/ucr/lab/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ucr/lab/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/domain/Graph/MatrixListLinkedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/Graph/MatrixListLinkedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/domain/Tree/BTreeBSTAVLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/Tree/BTreeBSTAVLTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -25,7 +53,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2RRINQgAqrYJytd90FhpAyPQuyb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,9 +63,40 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="domain.Tree" />
+      <recent name="domain.Graph" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="domain.Graph" />
+      <recent name="domain.Tree" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Quiz6PracticaExa2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Quiz6PracticaExa2" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

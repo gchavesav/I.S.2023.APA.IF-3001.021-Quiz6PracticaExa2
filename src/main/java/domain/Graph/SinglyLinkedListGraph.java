@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package domain;
+package domain.Graph;
 
 import domain.list.SinglyLinkedList;
 import domain.list.ListException;
@@ -232,7 +232,7 @@ public class SinglyLinkedListGraph implements Graph {
     /***
      * RECORRIDO EN PROFUNDIDAD
      * @return 
-     * @throws domain.GraphException
+     * @throws GraphException
      * @throws domain.stack.StackException
      */
     @Override
@@ -263,7 +263,7 @@ public class SinglyLinkedListGraph implements Graph {
     /***
      * RECORRIDO POR AMPLITUD
      * @return 
-     * @throws domain.GraphException
+     * @throws GraphException
      */
     @Override
     public String bfs() throws GraphException, QueueException, ListException {
@@ -318,5 +318,30 @@ public class SinglyLinkedListGraph implements Graph {
             }
         }
         return null; //no existe el vertice
+    }
+
+    @Override
+    public Object getVertexDegree(Object value) throws GraphException, ListException {
+        return null;
+    }
+
+    @Override
+    public String getGraphDegree() throws GraphException, ListException {
+        return null;
+    }
+
+    @Override
+    public int totalEdges() throws GraphException, ListException {
+        return 0;
+    }
+
+    @Override
+    public int totalEdges(Object value) throws GraphException, ListException {
+        return 0;
+    }
+
+    @Override
+    public String getEdges(Object value) throws GraphException, ListException {
+        return null;
     }
 }
